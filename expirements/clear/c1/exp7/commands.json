@@ -1,0 +1,1 @@
+[{"action": 1, "function": "grasp", "object": "blue_cube"}, {"action": 2, "function": "go_home", "object": ""}, {"action": 3, "function": "place", "object": "pad_three"}, {"action": 4, "function": "go_home", "object": ""}]
