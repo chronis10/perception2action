@@ -1,90 +1,16 @@
 ## Scenario 1
-### Expirement 1
-![](expirements/clear/c4/exp8/exp8.gif)
-**Commands**
-* {'action': 1, 'function': 'grasp', 'object': 'yellow_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'red_cube'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-### Expirement 2
-![](expirements/clear/c4/exp6/exp6.gif)
-**Commands**
-* {'action': 1, 'function': 'grasp', 'object': 'yellow_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'red_cube'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-### Expirement 3
-![](expirements/clear/c4/exp3/exp3.gif)
-**Commands**
-* {'action': 1, 'function': 'grasp', 'object': 'yellow_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'red_cube'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-### Expirement 4
-![](expirements/clear/c4/exp9/exp9.gif)
-**Commands**
-* {'action': 1, 'function': 'grasp', 'object': 'green_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'pad_three'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-* {'action': 5, 'function': 'grasp', 'object': 'yellow_cube'}
-* {'action': 6, 'function': 'go_home', 'object': ''}
-* {'action': 7, 'function': 'place', 'object': 'red_cube'}
-* {'action': 8, 'function': 'go_home', 'object': ''}
-* {'action': 9, 'function': 'grasp', 'object': 'green_cube'}
-* {'action': 10, 'function': 'go_home', 'object': ''}
-* {'action': 11, 'function': 'place', 'object': 'yellow_cube'}
-* {'action': 12, 'function': 'go_home', 'object': ''}
-### Expirement 5
-![](expirements/clear/c4/exp5/exp5.gif)
-**Commands**
-* {'action': 1, 'function': 'grasp', 'object': 'yellow_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'red_cube'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-### Expirement 6
-![](expirements/clear/c4/exp10/exp10.gif)
-**Commands**
-* {'action': 1, 'function': 'grasp', 'object': 'green_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'table_surface'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-* {'action': 5, 'function': 'grasp', 'object': 'yellow_cube'}
-* {'action': 6, 'function': 'go_home', 'object': ''}
-* {'action': 7, 'function': 'place', 'object': 'red_cube'}
-* {'action': 8, 'function': 'go_home', 'object': ''}
-* {'action': 9, 'function': 'grasp', 'object': 'green_cube'}
-* {'action': 10, 'function': 'go_home', 'object': ''}
-* {'action': 11, 'function': 'place', 'object': 'yellow_cube'}
-* {'action': 12, 'function': 'go_home', 'object': ''}
-### Expirement 7
-![](expirements/clear/c4/exp4/exp4.gif)
-**Commands**
-* {'action': 1, 'function': 'grasp', 'object': 'yellow_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'red_cube'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-### Expirement 8
-![](expirements/clear/c4/exp7/exp7.gif)
-**Commands**
-* {'action': 1, 'function': 'grasp', 'object': 'yellow_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'red_cube'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-### Expirement 9
-![](expirements/clear/c4/exp2/exp2.gif)
-**Commands**
-* {'action': 1, 'function': 'grasp', 'object': 'yellow_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'red_cube'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-### Expirement 10
-![](expirements/clear/c4/exp1/exp1.gif)
-**Commands**
-* {'action': 1, 'function': 'grasp', 'object': 'yellow_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'red_cube'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
+|Expirement | GIF | Commands | Explanation |
+|---| --- | --- | --- |
+|1| ![](['expirements/clear/c4/exp8/exp8.gif']) | [{'action': 1, 'function': 'grasp', 'object': 'yellow_cube'}, {'action': 2, 'function': 'go_home', 'object': ''}, {'action': 3, 'function': 'place', 'object': 'red_cube'}, {'action': 4, 'function': 'go_home', 'object': ''}] | -|
+|2| ![](['expirements/clear/c4/exp6/exp6.gif']) | [{'action': 1, 'function': 'grasp', 'object': 'yellow_cube'}, {'action': 2, 'function': 'go_home', 'object': ''}, {'action': 3, 'function': 'place', 'object': 'red_cube'}, {'action': 4, 'function': 'go_home', 'object': ''}] | -|
+|3| ![](['expirements/clear/c4/exp3/exp3.gif']) | [{'action': 1, 'function': 'grasp', 'object': 'yellow_cube'}, {'action': 2, 'function': 'go_home', 'object': ''}, {'action': 3, 'function': 'place', 'object': 'red_cube'}, {'action': 4, 'function': 'go_home', 'object': ''}] | -|
+|4| ![](['expirements/clear/c4/exp9/exp9.gif']) | [{'action': 1, 'function': 'grasp', 'object': 'green_cube'}, {'action': 2, 'function': 'go_home', 'object': ''}, {'action': 3, 'function': 'place', 'object': 'pad_three'}, {'action': 4, 'function': 'go_home', 'object': ''}, {'action': 5, 'function': 'grasp', 'object': 'yellow_cube'}, {'action': 6, 'function': 'go_home', 'object': ''}, {'action': 7, 'function': 'place', 'object': 'red_cube'}, {'action': 8, 'function': 'go_home', 'object': ''}, {'action': 9, 'function': 'grasp', 'object': 'green_cube'}, {'action': 10, 'function': 'go_home', 'object': ''}, {'action': 11, 'function': 'place', 'object': 'yellow_cube'}, {'action': 12, 'function': 'go_home', 'object': ''}] | -|
+|5| ![](['expirements/clear/c4/exp5/exp5.gif']) | [{'action': 1, 'function': 'grasp', 'object': 'yellow_cube'}, {'action': 2, 'function': 'go_home', 'object': ''}, {'action': 3, 'function': 'place', 'object': 'red_cube'}, {'action': 4, 'function': 'go_home', 'object': ''}] | -|
+|6| ![](['expirements/clear/c4/exp10/exp10.gif']) | [{'action': 1, 'function': 'grasp', 'object': 'green_cube'}, {'action': 2, 'function': 'go_home', 'object': ''}, {'action': 3, 'function': 'place', 'object': 'table_surface'}, {'action': 4, 'function': 'go_home', 'object': ''}, {'action': 5, 'function': 'grasp', 'object': 'yellow_cube'}, {'action': 6, 'function': 'go_home', 'object': ''}, {'action': 7, 'function': 'place', 'object': 'red_cube'}, {'action': 8, 'function': 'go_home', 'object': ''}, {'action': 9, 'function': 'grasp', 'object': 'green_cube'}, {'action': 10, 'function': 'go_home', 'object': ''}, {'action': 11, 'function': 'place', 'object': 'yellow_cube'}, {'action': 12, 'function': 'go_home', 'object': ''}] | -|
+|7| ![](['expirements/clear/c4/exp4/exp4.gif']) | [{'action': 1, 'function': 'grasp', 'object': 'yellow_cube'}, {'action': 2, 'function': 'go_home', 'object': ''}, {'action': 3, 'function': 'place', 'object': 'red_cube'}, {'action': 4, 'function': 'go_home', 'object': ''}] | -|
+|8| ![](['expirements/clear/c4/exp7/exp7.gif']) | [{'action': 1, 'function': 'grasp', 'object': 'yellow_cube'}, {'action': 2, 'function': 'go_home', 'object': ''}, {'action': 3, 'function': 'place', 'object': 'red_cube'}, {'action': 4, 'function': 'go_home', 'object': ''}] | -|
+|9| ![](['expirements/clear/c4/exp2/exp2.gif']) | [{'action': 1, 'function': 'grasp', 'object': 'yellow_cube'}, {'action': 2, 'function': 'go_home', 'object': ''}, {'action': 3, 'function': 'place', 'object': 'red_cube'}, {'action': 4, 'function': 'go_home', 'object': ''}] | -|
+|10| ![](['expirements/clear/c4/exp1/exp1.gif']) | [{'action': 1, 'function': 'grasp', 'object': 'yellow_cube'}, {'action': 2, 'function': 'go_home', 'object': ''}, {'action': 3, 'function': 'place', 'object': 'red_cube'}, {'action': 4, 'function': 'go_home', 'object': ''}] | -|
 ## Scenario 2
 ### Expirement 1
 ![](expirements/clear/c7/exp8/exp8.gif)
