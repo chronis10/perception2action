@@ -23,7 +23,13 @@ with open(output_markdown, 'w') as md_file:
             md_file.write(f"**LLM Commands** \n")
             md_file.write(f"\n")
             for command in data['commands']:
-                md_file.write(f"* {command}\n")
+                fn = command['function'].replace('_',' ')
+                obg = command['object'].replace('_',' ')
+                if obg == '':
+                    md_file.write(f"* {fn}\n")
+                else:
+                    md_file.write(f"* {fn} -> {obg}\n")
+ 
             
             md_file.write(f"\n")
             md_file.write(f"**Preview** \n")

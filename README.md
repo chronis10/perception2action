@@ -9,15 +9,15 @@
 
 **LLM Commands** 
 
-* {'action': 1, 'function': 'grasp', 'object': 'blue_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'pad_three'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-* {'action': 5, 'function': 'go_home', 'object': ''}
+* grasp -> blue cube
+* go home
+* place -> pad three
+* go home
+* go home
 
 **Preview** 
 
-![Preview](/expirements/c/1/exp.gif)
+![Preview](./expirements/c/1/exp.gif)
 ## Scenario 2
 **Prompt** 
 > Pick the green cude and place it on pad three
@@ -27,18 +27,18 @@
 
 **LLM Commands** 
 
-* {'action': 1, 'function': 'grasp', 'object': 'blue_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'table_surface'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-* {'action': 5, 'function': 'grasp', 'object': 'green_cube'}
-* {'action': 6, 'function': 'go_home', 'object': ''}
-* {'action': 7, 'function': 'place', 'object': 'pad_three'}
-* {'action': 8, 'function': 'go_home', 'object': ''}
+* grasp -> blue cube
+* go home
+* place -> table surface
+* go home
+* grasp -> green cube
+* go home
+* place -> pad three
+* go home
 
 **Preview** 
 
-![Preview](/expirements/c/2/exp.gif)
+![Preview](./expirements/c/2/exp.gif)
 ## Scenario 3
 **Prompt** 
 > Place the blue cube on top of the red cube 
@@ -48,14 +48,14 @@
 
 **LLM Commands** 
 
-* {'action': 1, 'function': 'grasp', 'object': 'blue_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'red_cube'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
+* grasp -> blue cube
+* go home
+* place -> red cube
+* go home
 
 **Preview** 
 
-![Preview](/expirements/c/3/exp.gif)
+![Preview](./expirements/c/3/exp.gif)
 ## Scenario 4
 **Prompt** 
 > Pick the yellow cube and place it on top of the red cube 
@@ -65,22 +65,22 @@
 
 **LLM Commands** 
 
-* {'action': 1, 'function': 'grasp', 'object': 'blue_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'pad_three'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-* {'action': 5, 'function': 'grasp', 'object': 'green_cube'}
-* {'action': 6, 'function': 'go_home', 'object': ''}
-* {'action': 7, 'function': 'place', 'object': 'pad_three'}
-* {'action': 8, 'function': 'go_home', 'object': ''}
-* {'action': 9, 'function': 'grasp', 'object': 'yellow_cube'}
-* {'action': 10, 'function': 'go_home', 'object': ''}
-* {'action': 11, 'function': 'place', 'object': 'red_cube'}
-* {'action': 12, 'function': 'go_home', 'object': ''}
+* grasp -> blue cube
+* go home
+* place -> pad three
+* go home
+* grasp -> green cube
+* go home
+* place -> pad three
+* go home
+* grasp -> yellow cube
+* go home
+* place -> red cube
+* go home
 
 **Preview** 
 
-![Preview](/expirements/c/4/exp.gif)
+![Preview](./expirements/c/4/exp.gif)
 ## Scenario 5
 **Prompt** 
 > Place the red cube on top of the blue cube 
@@ -90,15 +90,15 @@
 
 **LLM Commands** 
 
-* {'action': 1, 'function': 'grasp', 'object': 'red_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'blue_cube'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-* {'action': 5, 'function': 'go_home', 'object': ''}
+* grasp -> red cube
+* go home
+* place -> blue cube
+* go home
+* go home
 
 **Preview** 
 
-![Preview](/expirements/c/5/exp.gif)
+![Preview](./expirements/c/5/exp.gif)
 ## Scenario 6
 **Prompt** 
 > Place the yellow cube on pad three 
@@ -108,22 +108,22 @@
 
 **LLM Commands** 
 
-* {'action': 1, 'function': 'grasp', 'object': 'blue_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'pad_two'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-* {'action': 5, 'function': 'grasp', 'object': 'green_cube'}
-* {'action': 6, 'function': 'go_home', 'object': ''}
-* {'action': 7, 'function': 'place', 'object': 'pad_two'}
-* {'action': 8, 'function': 'go_home', 'object': ''}
-* {'action': 9, 'function': 'grasp', 'object': 'yellow_cube'}
-* {'action': 10, 'function': 'go_home', 'object': ''}
-* {'action': 11, 'function': 'place', 'object': 'pad_three'}
-* {'action': 12, 'function': 'go_home', 'object': ''}
+* grasp -> blue cube
+* go home
+* place -> pad two
+* go home
+* grasp -> green cube
+* go home
+* place -> pad two
+* go home
+* grasp -> yellow cube
+* go home
+* place -> pad three
+* go home
 
 **Preview** 
 
-![Preview](/expirements/c/6/exp.gif)
+![Preview](./expirements/c/6/exp.gif)
 ## Scenario 7
 **Prompt** 
 > Stack the cubes on pad three with the following order, blue cube on pad, red cube above blue, green cube above blue and yellow cube above green
@@ -133,26 +133,26 @@
 
 **LLM Commands** 
 
-* {'action': 1, 'function': 'grasp', 'object': 'blue_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'pad_three'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-* {'action': 5, 'function': 'grasp', 'object': 'green_cube'}
-* {'action': 6, 'function': 'go_home', 'object': ''}
-* {'action': 7, 'function': 'place', 'object': 'blue_cube'}
-* {'action': 8, 'function': 'go_home', 'object': ''}
-* {'action': 9, 'function': 'grasp', 'object': 'yellow_cube'}
-* {'action': 10, 'function': 'go_home', 'object': ''}
-* {'action': 11, 'function': 'place', 'object': 'green_cube'}
-* {'action': 12, 'function': 'go_home', 'object': ''}
-* {'action': 13, 'function': 'grasp', 'object': 'red_cube'}
-* {'action': 14, 'function': 'go_home', 'object': ''}
-* {'action': 15, 'function': 'place', 'object': 'blue_cube'}
-* {'action': 16, 'function': 'go_home', 'object': ''}
+* grasp -> blue cube
+* go home
+* place -> pad three
+* go home
+* grasp -> green cube
+* go home
+* place -> blue cube
+* go home
+* grasp -> yellow cube
+* go home
+* place -> green cube
+* go home
+* grasp -> red cube
+* go home
+* place -> blue cube
+* go home
 
 **Preview** 
 
-![Preview](/expirements/c/7/exp.gif)
+![Preview](./expirements/c/7/exp.gif)
 ## Scenario 8
 **Prompt** 
 > At start place the blue cube on the pad three, then place the red cube on top of the blue cube, then place the green cube on top of the red cube and finally place the yellow cube on top of the green cube.
@@ -162,26 +162,26 @@
 
 **LLM Commands** 
 
-* {'action': 1, 'function': 'grasp', 'object': 'blue_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'pad_three'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-* {'action': 5, 'function': 'grasp', 'object': 'red_cube'}
-* {'action': 6, 'function': 'go_home', 'object': ''}
-* {'action': 7, 'function': 'place', 'object': 'blue_cube'}
-* {'action': 8, 'function': 'go_home', 'object': ''}
-* {'action': 9, 'function': 'grasp', 'object': 'green_cube'}
-* {'action': 10, 'function': 'go_home', 'object': ''}
-* {'action': 11, 'function': 'place', 'object': 'red_cube'}
-* {'action': 12, 'function': 'go_home', 'object': ''}
-* {'action': 13, 'function': 'grasp', 'object': 'yellow_cube'}
-* {'action': 14, 'function': 'go_home', 'object': ''}
-* {'action': 15, 'function': 'place', 'object': 'green_cube'}
-* {'action': 16, 'function': 'go_home', 'object': ''}
+* grasp -> blue cube
+* go home
+* place -> pad three
+* go home
+* grasp -> red cube
+* go home
+* place -> blue cube
+* go home
+* grasp -> green cube
+* go home
+* place -> red cube
+* go home
+* grasp -> yellow cube
+* go home
+* place -> green cube
+* go home
 
 **Preview** 
 
-![Preview](/expirements/c/8/exp.gif)
+![Preview](./expirements/c/8/exp.gif)
 ## Abstract Prompts
 ## Scenario 1
 **Prompt** 
@@ -192,26 +192,26 @@
 
 **LLM Commands** 
 
-* {'action': 1, 'function': 'grasp', 'object': 'yellow_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'grasp', 'object': 'green_cube'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-* {'action': 5, 'function': 'place', 'object': 'yellow_cube'}
-* {'action': 6, 'function': 'go_home', 'object': ''}
-* {'action': 7, 'function': 'grasp', 'object': 'blue_cube'}
-* {'action': 8, 'function': 'go_home', 'object': ''}
-* {'action': 9, 'function': 'place', 'object': 'green_cube'}
-* {'action': 10, 'function': 'go_home', 'object': ''}
-* {'action': 11, 'function': 'grasp', 'object': 'red_cube'}
-* {'action': 12, 'function': 'go_home', 'object': ''}
-* {'action': 13, 'function': 'place', 'object': 'blue_cube'}
-* {'action': 14, 'function': 'go_home', 'object': ''}
-* {'action': 15, 'function': 'place', 'object': 'red_cube'}
-* {'action': 16, 'function': 'go_home', 'object': ''}
+* grasp -> yellow cube
+* go home
+* grasp -> green cube
+* go home
+* place -> yellow cube
+* go home
+* grasp -> blue cube
+* go home
+* place -> green cube
+* go home
+* grasp -> red cube
+* go home
+* place -> blue cube
+* go home
+* place -> red cube
+* go home
 
 **Preview** 
 
-![Preview](/expirements/a/1/exp.gif)
+![Preview](./expirements/a/1/exp.gif)
 ## Scenario 2
 **Prompt** 
 > Put at least one cube on each pad 
@@ -221,15 +221,15 @@
 
 **LLM Commands** 
 
-* {'action': 1, 'function': 'grasp', 'object': 'yellow_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'pad_three'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-* {'action': 5, 'function': 'go_home', 'object': ''}
+* grasp -> yellow cube
+* go home
+* place -> pad three
+* go home
+* go home
 
 **Preview** 
 
-![Preview](/expirements/a/2/exp.gif)
+![Preview](./expirements/a/2/exp.gif)
 ## Scenario 3
 **Prompt** 
 > Make two stacks of two cubes on pad three and pad two
@@ -239,27 +239,27 @@
 
 **LLM Commands** 
 
-* {'action': 1, 'function': 'grasp', 'object': 'yellow_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'pad_three'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-* {'action': 5, 'function': 'grasp', 'object': 'green_cube'}
-* {'action': 6, 'function': 'go_home', 'object': ''}
-* {'action': 7, 'function': 'place', 'object': 'yellow_cube'}
-* {'action': 8, 'function': 'go_home', 'object': ''}
-* {'action': 9, 'function': 'grasp', 'object': 'red_cube'}
-* {'action': 10, 'function': 'go_home', 'object': ''}
-* {'action': 11, 'function': 'place', 'object': 'pad_two'}
-* {'action': 12, 'function': 'go_home', 'object': ''}
-* {'action': 13, 'function': 'grasp', 'object': 'blue_cube'}
-* {'action': 14, 'function': 'go_home', 'object': ''}
-* {'action': 15, 'function': 'place', 'object': 'red_cube'}
-* {'action': 16, 'function': 'go_home', 'object': ''}
-* {'action': 17, 'function': 'go_home', 'object': ''}
+* grasp -> yellow cube
+* go home
+* place -> pad three
+* go home
+* grasp -> green cube
+* go home
+* place -> yellow cube
+* go home
+* grasp -> red cube
+* go home
+* place -> pad two
+* go home
+* grasp -> blue cube
+* go home
+* place -> red cube
+* go home
+* go home
 
 **Preview** 
 
-![Preview](/expirements/a/3/exp.gif)
+![Preview](./expirements/a/3/exp.gif)
 ## Scenario 4
 **Prompt** 
 > Place the cube which is to the right of the blue cube on pad three.
@@ -269,14 +269,14 @@
 
 **LLM Commands** 
 
-* {'action': 1, 'function': 'grasp', 'object': 'green_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'pad_three'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
+* grasp -> green cube
+* go home
+* place -> pad three
+* go home
 
 **Preview** 
 
-![Preview](/expirements/a/4/exp.gif)
+![Preview](./expirements/a/4/exp.gif)
 ## Scenario 5
 **Prompt** 
 > Place the cube which is in front of the yellow cube on pad three
@@ -286,15 +286,15 @@
 
 **LLM Commands** 
 
-* {'action': 1, 'function': 'grasp', 'object': 'blue_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'pad_three'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-* {'action': 5, 'function': 'go_home', 'object': ''}
+* grasp -> blue cube
+* go home
+* place -> pad three
+* go home
+* go home
 
 **Preview** 
 
-![Preview](/expirements/a/5/exp.gif)
+![Preview](./expirements/a/5/exp.gif)
 ## Scenario 6
 **Prompt** 
 > Stack all the cubes on a pad
@@ -304,26 +304,26 @@
 
 **LLM Commands** 
 
-* {'action': 1, 'function': 'grasp', 'object': 'yellow_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'pad_three'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-* {'action': 5, 'function': 'grasp', 'object': 'green_cube'}
-* {'action': 6, 'function': 'go_home', 'object': ''}
-* {'action': 7, 'function': 'place', 'object': 'yellow_cube'}
-* {'action': 8, 'function': 'go_home', 'object': ''}
-* {'action': 9, 'function': 'grasp', 'object': 'red_cube'}
-* {'action': 10, 'function': 'go_home', 'object': ''}
-* {'action': 11, 'function': 'place', 'object': 'green_cube'}
-* {'action': 12, 'function': 'go_home', 'object': ''}
-* {'action': 13, 'function': 'grasp', 'object': 'blue_cube'}
-* {'action': 14, 'function': 'go_home', 'object': ''}
-* {'action': 15, 'function': 'place', 'object': 'red_cube'}
-* {'action': 16, 'function': 'go_home', 'object': ''}
+* grasp -> yellow cube
+* go home
+* place -> pad three
+* go home
+* grasp -> green cube
+* go home
+* place -> yellow cube
+* go home
+* grasp -> red cube
+* go home
+* place -> green cube
+* go home
+* grasp -> blue cube
+* go home
+* place -> red cube
+* go home
 
 **Preview** 
 
-![Preview](/expirements/a/6/exp.gif)
+![Preview](./expirements/a/6/exp.gif)
 ## Fuzzy Prompts
 ## Scenario 1
 **Prompt** 
@@ -334,13 +334,13 @@
 
 **LLM Commands** 
 
-* {'action': 1, 'function': 'grasp', 'object': 'blue_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'go_home', 'object': ''}
+* grasp -> blue cube
+* go home
+* go home
 
 **Preview** 
 
-![Preview](/expirements/f/1/exp.gif)
+![Preview](./expirements/f/1/exp.gif)
 ## Scenario 2
 **Prompt** 
 > If red is patty, green is lettuce, yellow is banana and blue is water and every pad is a plate, i need the ingredients of the burger on the plates
@@ -350,19 +350,19 @@
 
 **LLM Commands** 
 
-* {'action': 1, 'function': 'grasp', 'object': 'red_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'pad_three'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-* {'action': 5, 'function': 'grasp', 'object': 'green_cube'}
-* {'action': 6, 'function': 'go_home', 'object': ''}
-* {'action': 7, 'function': 'place', 'object': 'pad_two'}
-* {'action': 8, 'function': 'go_home', 'object': ''}
-* {'action': 9, 'function': 'go_home', 'object': ''}
+* grasp -> red cube
+* go home
+* place -> pad three
+* go home
+* grasp -> green cube
+* go home
+* place -> pad two
+* go home
+* go home
 
 **Preview** 
 
-![Preview](/expirements/f/2/exp.gif)
+![Preview](./expirements/f/2/exp.gif)
 ## Scenario 3
 **Prompt** 
 > If red is patty, green is lettuce, yellow is bread and blue is water and pad two is a plate, make a burger and on a  plate
@@ -372,27 +372,27 @@
 
 **LLM Commands** 
 
-* {'action': 1, 'function': 'grasp', 'object': 'yellow_cube_2'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'pad_two'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-* {'action': 5, 'function': 'grasp', 'object': 'red_cube'}
-* {'action': 6, 'function': 'go_home', 'object': ''}
-* {'action': 7, 'function': 'place', 'object': 'yellow_cube_2'}
-* {'action': 8, 'function': 'go_home', 'object': ''}
-* {'action': 9, 'function': 'grasp', 'object': 'green_cube'}
-* {'action': 10, 'function': 'go_home', 'object': ''}
-* {'action': 11, 'function': 'place', 'object': 'red_cube'}
-* {'action': 12, 'function': 'go_home', 'object': ''}
-* {'action': 13, 'function': 'grasp', 'object': 'yellow_cube'}
-* {'action': 14, 'function': 'go_home', 'object': ''}
-* {'action': 15, 'function': 'place', 'object': 'green_cube'}
-* {'action': 16, 'function': 'go_home', 'object': ''}
-* {'action': 17, 'function': 'go_home', 'object': ''}
+* grasp -> yellow cube 2
+* go home
+* place -> pad two
+* go home
+* grasp -> red cube
+* go home
+* place -> yellow cube 2
+* go home
+* grasp -> green cube
+* go home
+* place -> red cube
+* go home
+* grasp -> yellow cube
+* go home
+* place -> green cube
+* go home
+* go home
 
 **Preview** 
 
-![Preview](/expirements/f/3/exp.gif)
+![Preview](./expirements/f/3/exp.gif)
 ## Scenario 4
 **Prompt** 
 > Make the tallest tower you can  
@@ -402,24 +402,24 @@
 
 **LLM Commands** 
 
-* {'action': 1, 'function': 'grasp', 'object': 'yellow_cube'}
-* {'action': 2, 'function': 'go_home', 'object': ''}
-* {'action': 3, 'function': 'place', 'object': 'green_cube'}
-* {'action': 4, 'function': 'go_home', 'object': ''}
-* {'action': 5, 'function': 'grasp', 'object': 'blue_cube'}
-* {'action': 6, 'function': 'go_home', 'object': ''}
-* {'action': 7, 'function': 'place', 'object': 'yellow_cube'}
-* {'action': 8, 'function': 'go_home', 'object': ''}
-* {'action': 9, 'function': 'grasp', 'object': 'red_cube'}
-* {'action': 10, 'function': 'go_home', 'object': ''}
-* {'action': 11, 'function': 'place', 'object': 'blue_cube'}
-* {'action': 12, 'function': 'go_home', 'object': ''}
-* {'action': 13, 'function': 'grasp', 'object': 'yellow_cube_2'}
-* {'action': 14, 'function': 'go_home', 'object': ''}
-* {'action': 15, 'function': 'place', 'object': 'red_cube'}
-* {'action': 16, 'function': 'go_home', 'object': ''}
-* {'action': 17, 'function': 'go_home', 'object': ''}
+* grasp -> yellow cube
+* go home
+* place -> green cube
+* go home
+* grasp -> blue cube
+* go home
+* place -> yellow cube
+* go home
+* grasp -> red cube
+* go home
+* place -> blue cube
+* go home
+* grasp -> yellow cube 2
+* go home
+* place -> red cube
+* go home
+* go home
 
 **Preview** 
 
-![Preview](/expirements/f/4/exp.gif)
+![Preview](./expirements/f/4/exp.gif)
