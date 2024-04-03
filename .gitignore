@@ -1,2 +1,4 @@
 experiments/**/*.jpg
 experiments/**/*.pickle
+assets/*.mp4
+assets/*.m4v

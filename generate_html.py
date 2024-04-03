@@ -30,7 +30,7 @@ with open(output_html, 'w') as md_file:
                 complicated tasks with minimum effort.</p>
 
                 <video width="320" height="240" controls loop="" autoplay="" muted ="">
-                    <source src="./assets/SGGLLM.m4v" type="video/mp4">
+                    <source src="./assets/SGGLLM.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
 
