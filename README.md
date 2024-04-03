@@ -19,7 +19,13 @@
             users without programming expertise to interact seamlessly with robotic systems and achieve 
             complicated tasks with minimum effort.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Cyl0dUfV7tE?si=YfaZW2JWFOZSVQSP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<center>
+    <video width="320" height="240" controls loop autoplay muted>
+        <source src="./assets/SGGLLM.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</center>
 
 ## Clear Prompts
 ## Scenario 1
