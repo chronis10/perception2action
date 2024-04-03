@@ -6,6 +6,7 @@ output_markdown = 'README.md'
 with open(output_markdown, 'w') as md_file:
 
     md_file.write(f"# Perception to Action\n")
+
     part1 = '''## Abstract \n Providing a user-friendly interface for the operators of 
             robotic devices is challenging but can save them precious time when
             reprogramming a device to perform different tasks under varying conditions. 
@@ -24,6 +25,7 @@ with open(output_markdown, 'w') as md_file:
             in facilitating task execution through natural language inputs, empowering 
             users without programming expertise to interact seamlessly with robotic systems and achieve 
             complicated tasks with minimum effort.\n'''
+    
     
     md_file.write(part1)
     exp_type = [['c','Clear'],['a','Abstract'],['f','Fuzzy']]
