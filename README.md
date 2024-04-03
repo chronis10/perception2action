@@ -1,4 +1,7 @@
 # Perception to Action
+
+![HUA](./assets/hua.png)
+
 ## Abstract 
  Providing a user-friendly interface for the operators of 
             robotic devices is challenging but can save them precious time when
@@ -19,13 +22,22 @@
             users without programming expertise to interact seamlessly with robotic systems and achieve 
             complicated tasks with minimum effort.
 
-
 <center>
-    <video width="320" height="240" controls loop autoplay muted>
+    <video width="640" height="280" controls loop autoplay muted>
         <source src="./assets/SGGLLM.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </center>
+
+## Authors
+
+- Christos Chronis Ph.D. Candidate 
+- Iraklis Varlamis, Professor 
+- Dimitrios Michail, Associate Professor 
+- Konstantinos Tserpes, Associate Professor 
+- Georgios Dimitrakopoulos, Associate Professor 
+
+Harokopio University of Athens, Department of Informatics and Telematics
 
 ## Clear Prompts
 ## Scenario 1
