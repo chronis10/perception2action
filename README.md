@@ -1,15 +1,26 @@
-# Perception to Action
 
-## Abstract
+                ## Abstract 
 
-Providing a user-friendly interface for the operators of robotic devices is challenging but can save them precious time when reprogramming a device to perform different tasks under varying conditions. 
-This paper presents a novel pipeline that adds context awareness at every step of the task execution and employs LLMs to develop a textual interface that supports commands and directions in natural language.
-Contextual awareness is achieved by analysing input from a camera that supervises the task execution and leveraging 6D pose estimation and scene graph generation models, to create an enriched representation of the task's environment. The rich scene graph incorporates spatial information and refined relationships between objects, and along with the user prompt in natural language is given as input to an LLM-powered chatbot, thus enabling a more intuitive interaction between the user and the robot that requires the minimum information from the user.
-The first experiments in a simulated environment demonstrate the effectiveness of the proposed approach in facilitating task execution through natural language inputs, empowering users without programming expertise to interact seamlessly with robotic systems and achieve complicated tasks with minimum effort.
+                Providing a user-friendly interface for the operators of 
+                robotic devices is challenging but can save them precious time when
+                  reprogramming a device to perform different tasks under varying conditions. 
+                  This paper presents a novel pipeline that adds context awareness at every 
+                  step of the task execution and employs LLMs to develop a textual interface 
+                  that supports commands and directions in natural language. Contextual 
+                  awareness is achieved by analysing input from a camera that supervises 
+                  the task execution and leveraging 6D pose estimation and scene graph 
+                  generation models, to create an enriched representation of the task's 
+                  environment. The rich scene graph incorporates spatial information and 
+                  refined relationships between objects, and along with the user prompt in 
+                  natural language is given as input to an LLM-powered chatbot, thus 
+                  enabling a more intuitive interaction between the user and the robot that 
+                  requires the minimum information from the user. The first experiments in a 
+                  simulated environment demonstrate the effectiveness of the proposed approach 
+                  in facilitating task execution through natural language inputs, empowering 
+                  users without programming expertise to interact seamlessly with robotic systems and achieve 
+                complicated tasks with minimum effort.
 
-
-
-## Clear Prompts
+            ## Clear Prompts
 ## Scenario 1
 **Prompt** 
 > Pick the blue cube and place it on pad three 
@@ -433,11 +444,3 @@ The first experiments in a simulated environment demonstrate the effectiveness o
 **Preview** 
 
 ![Preview](./expirements/f/4/exp.gif)
-
-
-## Authors
-- Christos Chronis Ph.D. Candidate
-- Iraklis Varlamis, Professor
-- Dimitrios Michail, Associate Professor
-- Konstantinos Tserpes, Associate Professor
-- Georgios Dimitrakopoulos, Associate Professor
