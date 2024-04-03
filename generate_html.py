@@ -5,6 +5,8 @@ output_html = 'index.html'
 
 with open(output_html, 'w') as md_file:
     part = '''
+                <!DOCTYPE html>
+                
                 <head>
                     <title>Perception to Action</title>
                 </head>
@@ -80,6 +82,7 @@ with open(output_html, 'w') as md_file:
                 <li> Georgios Dimitrakopoulos, Associate Professor </li>
             </ul>
             </body>
+            </html>
             ''' 
 
 
