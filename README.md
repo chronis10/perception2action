@@ -1,6 +1,9 @@
 # Perception to Action
 
+
 ![HUA](./assets/hua.png)
+
+
 
 ## Abstract 
  Providing a user-friendly interface for the operators of 
@@ -22,12 +25,19 @@
             users without programming expertise to interact seamlessly with robotic systems and achieve 
             complicated tasks with minimum effort.
 
+
+![Pipeline](./assets/pipeline.png)   
+
+![Graph](./assets/graph2.png)
+
 <center>
     <video width="640" height="280" controls loop autoplay muted>
         <source src="./assets/SGGLLM.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </center>
+
+---
 
 ## Authors
 
@@ -164,38 +174,10 @@ Harokopio University of Athens, Department of Informatics and Telematics
 **Preview** 
 
 ![Preview](./expirements/c/6/exp.gif)
+
 ## Scenario 7
 **Prompt** 
-> Stack the cubes on pad three with the following order, blue cube on pad, red cube above blue, green cube above blue and yellow cube above green
-
-**LLM Explanation** 
-> The task was to stack the cubes on pad three in a specific order. First, the blue cube was moved from its initial position on top of the green cube to pad three. Next, the green cube was placed on top of the blue cube. Then, the yellow cube was moved from its initial position on pad one to the top of the green cube. Finally, the red cube was moved from pad two to the top of the blue cube, completing the stack in the specified order. Each grasp and place action was followed by a return to the home position to ensure the arm was correctly positioned for the next move.
-
-**LLM Commands** 
-
-* grasp -> blue cube
-* go home
-* place -> pad three
-* go home
-* grasp -> green cube
-* go home
-* place -> blue cube
-* go home
-* grasp -> yellow cube
-* go home
-* place -> green cube
-* go home
-* grasp -> red cube
-* go home
-* place -> blue cube
-* go home
-
-**Preview** 
-
-![Preview](./expirements/c/7/exp.gif)
-## Scenario 8
-**Prompt** 
-> At start place the blue cube on the pad three, then place the red cube on top of the blue cube, then place the green cube on top of the red cube and finally place the yellow cube on top of the green cube.
+> First place the blue cube on pad three, then place the red cube on top of the blue cube, then place the green cube on top of the red cube and finally place the yellow cube on top of the green cube.
 
 **LLM Explanation** 
 > The task begins by moving the blue cube from its initial position on the green cube to pad three. Following this, the red cube is moved from pad two and placed on top of the blue cube. Next, the green cube, which was initially under the blue cube, is moved and placed on top of the red cube. Finally, the yellow cube, initially on pad one, is moved and placed on top of the green cube. Each 'grasp' and 'place' action is followed by a 'go_home' command to reset the arm's position, ensuring the task is completed efficiently and according to the rules.
@@ -364,7 +346,7 @@ Harokopio University of Athens, Department of Informatics and Telematics
 **Preview** 
 
 ![Preview](./expirements/a/6/exp.gif)
-## Fuzzy Prompts
+## Creative Prompts
 ## Scenario 1
 **Prompt** 
 > Pick the cube that symbolize the sky
@@ -463,3 +445,4 @@ Harokopio University of Athens, Department of Informatics and Telematics
 **Preview** 
 
 ![Preview](./expirements/f/4/exp.gif)
+
