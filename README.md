@@ -1,5 +1,3 @@
-# Perception to Action
-
 
 ![HUA](./assets/hua.png)
 
@@ -28,7 +26,6 @@
 
 ![Pipeline](./assets/pipeline.png)   
 
-![Graph](./assets/graph2.png)
 
 <center>
     <video width="640" height="280" controls loop autoplay muted>
